@@ -7,3 +7,7 @@ xgboost
 lightgbm
 kagglehub
 shap
+huggingface_hub
+chromadb
+sentence-transformers
+python-dotenv
