@@ -33,9 +33,9 @@ N_RESULTS = 8  # rows retrieved per query
 # Free models available on HuggingFace Inference API (no payment needed)
 MODELS = {
     "Qwen 2.5 7B (Recommended)": "Qwen/Qwen2.5-7B-Instruct",
-    "Llama 3.2 3B (Fastest)": "meta-llama/Llama-3.2-3B-Instruct",
-    "Phi-3.5 Mini": "microsoft/Phi-3.5-mini-instruct",
-    "Mistral 7B Instruct": "mistralai/Mistral-7B-Instruct-v0.3",
+    "Qwen 2.5 72B (Most Capable)": "Qwen/Qwen2.5-72B-Instruct",
+    "Qwen 2.5 3B (Fastest)": "Qwen/Qwen2.5-3B-Instruct",
+    "Qwen 2.5 Coder 7B": "Qwen/Qwen2.5-Coder-7B-Instruct",
 }
 
 SYSTEM_PROMPT = """You are a knowledgeable data analyst assistant. Answer the user's questions using the retrieved data rows provided with each message.
