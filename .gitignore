@@ -1,0 +1,16 @@
+# Secret tokens — never commit these
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ChromaDB local data
+chroma_db/
