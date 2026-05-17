@@ -92,7 +92,7 @@ def ingest_df(df: pd.DataFrame, source: str, collection, embed_model) -> int:
     if not texts:
         return 0
 
-    try:d
+    try:
         existing = collection.get(where={"source": source})
         if existing["ids"]:
             collection.delete(ids=existing["ids"])
