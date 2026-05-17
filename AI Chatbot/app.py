@@ -32,10 +32,10 @@ N_RESULTS = 8  # rows retrieved per query
 
 # Free models available on HuggingFace Inference API (no payment needed)
 MODELS = {
-    "Mistral 7B Instruct (Recommended)": "mistralai/Mistral-7B-Instruct-v0.3",
-    "Microsoft Phi-3 Mini (Faster)": "microsoft/Phi-3-mini-4k-instruct",
-    "Qwen 2.5 7B": "Qwen/Qwen2.5-7B-Instruct",
-    "Zephyr 7B Beta": "HuggingFaceH4/zephyr-7b-beta",
+    "Qwen 2.5 7B (Recommended)": "Qwen/Qwen2.5-7B-Instruct",
+    "Llama 3.2 3B (Fastest)": "meta-llama/Llama-3.2-3B-Instruct",
+    "Phi-3.5 Mini": "microsoft/Phi-3.5-mini-instruct",
+    "Mistral 7B Instruct": "mistralai/Mistral-7B-Instruct-v0.3",
 }
 
 SYSTEM_PROMPT = """You are a knowledgeable data analyst assistant. Answer the user's questions using the retrieved data rows provided with each message.
