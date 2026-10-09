@@ -1,12 +1,25 @@
-streamlit
+# Core data science
+numpy
 pandas
+scipy
 matplotlib
+seaborn
 plotly
 scikit-learn
+
+# Gradient boosting & explainability
 xgboost
 lightgbm
-kagglehub
 shap
+
+# Optimization
+pulp
+
+# Data access
+kagglehub
+
+# Apps (Streamlit) & RAG chatbot
+streamlit
 huggingface_hub
 chromadb
 sentence-transformers
